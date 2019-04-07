@@ -1,0 +1,287 @@
+
+@extends('layouts.admin')
+@section('title', 'Announcements')
+@section('content')
+<div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+        <div class="col-lg-8 col-md-8 col-sm-8">
+            <div class="card-box">
+                <h4 class="text-dark  header-title m-t-0">Enter Student Details</h4><br>
+                <form  method="POST">
+                        @csrf
+                    <div class="form-group">
+                        <label for="">Title</label>
+                        <select class="form-control">
+                            <option></option>
+                            <option>Mr</option>
+                            <option>Mrs</option>
+                            <option>Miss</option>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">First Name<span class="text-danger">*</span></label>
+                                <input type="text" name="firstname" value="{{ old('firstname') }}" parsley-trigger="change" required
+                                       placeholder="Enter First name" class="form-control" id="userName">
+                            </div>
+                            @if ($errors->has('firstname'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('firstname') }}</span>
+                                </p>
+                            @endif
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Last Name<span class="text-danger">*</span></label>
+                                <input type="text" name="lastname" value="{{ old('lastname') }} parsley-trigger="change" required
+                                       placeholder="Enter Last name" class="form-control" id="userName">
+                            </div>
+                            @if ($errors->has('lastname'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('lastname') }}</span>
+                                </p>
+                            @endif
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Middle Name<span class="text-danger">*</span></label>
+                                <input type="text" name="middlename" value="{{ old('middlename') }} parsley-trigger="change" required
+                                       placeholder="Enter middle name" class="form-control" id="userName">
+                            </div>
+                            @if ($errors->has('middlename'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('middlename') }}</span>
+                                </p>
+                            @endif
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Phone Number<span class="text-danger">*</span></label>
+                                <input name="phone" type="number" value="{{ old('phone') }}" required id="phone" class="form-control">
+                            </div>
+                            @if ($errors->has('phone'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('phone') }}</span>
+                                </p>
+                            @endif
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Email Address<span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" name="email" value="{{ old('email') }}" type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    @if ($errors->has('email'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('email') }}</span>
+                                </p>
+                            @endif
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Matric Number<span class="text-danger">*</span></label>
+                        <input type="text" name="matric_num" value="{{ old('matric_num') }}" parsley-trigger="change" required
+                               placeholder="Enter matric number" class="form-control" id="userName">
+                               @if ($errors->has('matric_num'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('matric_num') }}</span>
+                                </p>
+                            @endif
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="">Course of Study<span class="text-danger">*</span></label>
+                        <input type="" name="course_of_study" value="{{ old('course_of_study') }}" required class="form-control">
+                        @if ($errors->has('course_of_study'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('course_of_study') }}</span>
+                                </p>
+                            @endif
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Current Level</label>
+                        <select class="form-control" name="level">
+                                    <option value="100">100 Level</option>
+                                    <option value="200">200 Level</option>
+                                    <option value="300">300 Level</option>
+                                    <option value="400">400 Level</option>
+                                    <option value="500">500 Level</option>
+                                    <option value="600">600 Level</option>
+                                    <option value="700">700 Level</option>
+                                </select>
+                                
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Marital Status</label>
+                                <select class="form-control" name="marital_status">
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Divorced">Divorced</option>
+                                </select>
+                                        
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Gendal</label>
+                                <select class="form-control" name="gender">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                                        
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Date of BIrth</label>
+                        <div class="">
+                            <input type="date" value="{{ old('dob') }}"  name="dob"id="dob" placeholder="" class="form-control">
+                        </div>
+                        @if ($errors->has('dob'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('dob') }}</span>
+                                </p>
+                            @endif
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="control-label">Admission Year</label>
+                                <div class="">
+                                    <input type="date" value="{{ old('admission_year') }}" name="admission_year" type="date" id="ad_year" placeholder="" class="form-control">
+                                </div>
+                                @if ($errors->has('admission_year'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('admission_year') }}</span>
+                                </p>
+                            @endif
+                            <p class="alert alert-warning" style="display: none" id="nshow">Admission cannot be greater than expected Date of bitrh</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="control-label">Expected Graduation Year<span class="text-danger">*</span></label>
+                                <div class="">
+                                    <input name="expected_grad_year" value="{{ old('expected_grad_year') }}" type="date" id="eg_year" placeholder="" class="form-control">
+                                </div>
+                                <p class="alert alert-warning" style="display: none" id="show">Admission cannot be greater than expected graduation year</p>
+                            @if ($errors->has('expected_grad_year'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('expected_grad_year') }}</span>
+                                </p>
+                            @endif
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <label class="control-label">Nationality</label>
+                                <div class="">
+                                    <input type="text" value="{{ old('nationality') }}" name="nationality" required placeholder="" class="form-control">
+                                </div>
+                                @if ($errors->has('nationality'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('nationality') }}</span>
+                                </p>
+                            @endif
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <label class="control-label">State of Origin<span class="text-danger">*</span></label>
+                                <div class="">
+                                    <input type="text" value="{{ old('state_of_origin') }}" name="state_of_origin" type="text" id="soo" placeholder="" class="form-control">
+                                </div>
+                                @if ($errors->has('state_of_origin'))
+                                <p class="alert alert-danger">
+                                    <span>{{ $errors->first('state_of_origin') }}</span>
+                                </p>
+                            @endif
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <label class="control-label">LGA<span class="text-danger">*</span></label>
+                                <div class="">
+                                    <input type="text" name="date" required placeholder="" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Address<span class="text-danger">*</span></label>
+                        <div class="">
+                            <textarea class="form-control" rows="2" required=""></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Next of Kin Name<span class="text-danger">*</span></label>
+                        <div class="">
+                            <input type="text" name="nick" parsley-trigger="change" required placeholder="" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Next of Kin Phone<span class="text-danger">*</span></label>
+                        <div class="">
+                            <input type="text" name="date" required placeholder="" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Sponsor Name<span class="text-danger">*</span></label>
+                        <div class="">
+                            <input type="text" name="date" required placeholder="" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Sponsor Phone<span class="text-danger">*</span></label>
+                        <div class="">
+                            <input type="text" name="date" required placeholder="" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Sponsor Address<span class="text-danger">*</span></label>
+                        <div class="">
+                            <textarea class="form-control" rows="2" required=""></textarea>
+                        </div>
+                    </div>
+                
+                    
+                
+                    <div class="row">
+                        <div class="col-md-9 col-sm-9"></div>
+                        <div class="col-md-3 col-sm-3">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+
+    </div>
+@stop

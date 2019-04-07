@@ -1,0 +1,896 @@
+/*=================================================================
+  Dashboard Css
+==================================================================*/
+
+@media screen and (min-width: 1440px){
+
+  .__dasepl {
+    margin: 5% 0 0 65px;
+    width: 870px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 23%;
+  }
+
+}
+
+@media screen and (max-width: 1220px){
+  .__dasepl {
+    margin: 5% 0 0 72px;
+    width: 865px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 22%;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 70px;
+    width: 869px;
+  }
+
+  .__addag {
+    margin: 45px 8px 9px 70px;
+    width: 869px;
+  }
+
+  .__dasempl {
+    margin: 45px 8px 9px 76px;
+    width: 865px;
+  }
+
+  .bigers {
+    width: 58%;
+    margin-top: 0%;
+    margin-left: 227px;
+  }
+
+  .__tabov {
+    margin: 5% 0 0 89px;
+    width: 866px;
+  }
+
+  .__profbtn {
+    width: 165px;
+  }
+
+  .__prof1btn {
+    width: 165px;
+  }
+
+  .__bidsov {
+    margin: 2% 7%;
+    width: 911px;
+  }
+
+  .__taladownimg img {
+    margin-left: -13px;
+  }
+
+
+}
+
+@media screen and (max-width: 1024px){
+  .leftbar {
+  padding-top: 10%;
+  }
+  .leftbart {
+  padding-top: 4%;
+  width: 205px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 14px 29px;
+    margin-left: 5%;
+  }
+
+  .__dasepl {
+    margin: 5% 0px 0px 87px;
+    /*width: 805px;*/
+    width: 727px;
+  }
+
+  .__dasepl1 {
+    margin: 45px 8px 9px 92px;
+    width: 723px;
+  }
+
+  .__dascard {
+    width: 100%;
+  }
+
+  .__dasempl {
+      margin: 45px 0px 9px 91px;
+    width: 707px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 89px;
+    width: 726px;
+  }
+  .__addag {
+    margin: 45px 8px 9px 89px;
+    width: 726px;
+  }
+
+  .bigers {
+    width: 67%;
+    margin-top: 3%;
+    margin-left: 139px;
+  }
+
+  .__tabov {
+    margin: 5% 0 0 82px;
+    width: 721px;
+  }
+
+  .__trvto {
+    padding: 10px 20px 3px;
+  }
+
+  .__nav-pills li a {
+    padding: 20px 10px 9px;
+  }
+
+  .__profbtn {
+    font-family: AvenirLTStd-Medium;
+    width: 142px;
+  }
+  .__prof1btn {
+    font-family: AvenirLTStd-Medium;
+    width: 142px;
+  }
+
+  .__upl {
+    padding: 40px 66px;
+  }
+
+
+}
+
+@media screen and (max-width: 992px) {
+  
+  
+  .__dasepl {
+      margin: 5% 0px 0px 87px;
+      width: 712px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 89px;
+    width: 709px;
+  }
+  .__addag {
+    margin: 45px 8px 9px 89px;
+    width: 709px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 3%;
+  }
+
+  .__taladownimg img {
+    margin-left: -16px;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  .leftbar{
+    transform: translate(-300px);
+    top: 0%;
+  }
+
+  .leftbart{
+    transform: translate(-300px);
+    top: 0%;
+  }
+  #openSidebar{
+    display: block !important;
+    cursor: pointer !important;
+    margin-top: 17px;
+  }
+  img#closebtn {
+     display: block;
+     top: 3%;
+    left: 5%;
+  }
+
+  .__dast {
+    margin-top: 0%;
+  }
+
+
+  .__dasepl {
+    margin: 7% 0 0 0;
+    width: 100%;
+  }
+
+  .__dasepl1 {
+    margin: 45px 8px 9px 0;
+    width: 100%;
+  }
+
+  .__dascard {
+    width: 100%;
+  }
+
+  .__dashnav{
+    z-index: 1;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 14px 29px;
+    margin-left: 24%;
+  }
+
+  .__dascard p:nth-child(2) {
+    font-size: 14px;
+  }
+
+  .__dascard p:nth-child(3) {
+    font-size: 20px;
+  }
+
+  .__dasempl {
+    margin: 12px 8px 9px 0px;
+    width: 736px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+  .__addag {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+
+  .bigers {
+    width: 66%;
+    margin-top: 0%;
+    margin-left: 148px;
+  }
+
+  .__tabov {
+    margin: 7% 0 0 0px;
+    width: 100%;
+  }
+
+  .__trvto {
+    padding: 10px 24px 3px;
+  }
+
+  .__nav-pills li a {
+    padding: 20px 5px 9px;
+  }
+
+  .__profbtn {
+    width: 140px;
+  }
+
+  .__prof1btn {
+    width: 140px;
+  }
+
+  .__travtbids {
+    padding: 5px 1px;
+  }
+
+  .__pfin {
+    padding: 33px 30px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 568px) {
+
+    .__dast{
+    margin-top: 10%;
+  }
+
+  .__dashnav{
+    z-index: 1;
+    height: 56px;
+  }
+  
+  .biger{
+    width: 80% ;
+    transform: translate(0px) !important;
+    z-index:1  !important;
+    
+  }
+
+  .leftbar{
+    transform: translate(-1000px);
+    top: 0%;
+  }
+
+  .leftbart{
+    transform: translate(-1000px);
+    top: 0%;
+  }
+  #openSidebar{
+    display: block !important;
+    cursor: pointer !important;
+  }
+
+  /*for image close*/
+  img#closebtn {
+     display: block;
+     top: 3%;
+    left: 5%;
+  }
+
+  i#closebtn {
+     display: block;
+     top: 2%;
+    left: 5%;
+  }
+
+  #openSidebar {
+    margin-top: 2px;
+  }
+
+  .maianer {
+      padding: 10px 20px;
+  }
+  .mr-125 { right:125px !important; }
+
+
+  /*right slider side*/
+  .bigers {
+    width: 82%;
+    margin-top: 0%;
+    margin-left: 57px;
+  }
+
+  img#rightclosebtns {
+    margin-left: 233px;
+  }
+
+/*end*/
+
+  .__profimg {
+    margin-left: 77px;
+  }
+
+
+  .__dasepl {
+    width: 100%;
+    margin: 12% 0 0 !important;
+  }
+
+  .__dasepl1 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .__dascard {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .__dasepl span:nth-child(3) {
+    padding: 4px;
+  }
+
+  .__dassc {
+    margin-bottom: 10px;
+  }
+
+  /*.__logo {
+    width: 80px;
+    margin-top: -10px;
+    margin-left: 48px;
+  }*/
+
+  .navbar-toggle {
+    /* border: 2px solid #FFFFFF; */
+    color: #ffffff;
+    background: #433e59;
+  }
+
+  .__dascard p:nth-child(2) {
+    font-size: 10px;
+    margin-bottom: 0px;
+    padding: 3px 10px;
+  }
+  .__dascard p:nth-child(3) {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 3px 10px 10px;
+  }
+
+  .__pa {
+    margin: 1px 8px 9px 0px;
+    width: 100%;
+  }
+  .__addag {
+    margin: 1px 8px 9px 0px;
+    width: 100%;
+  }
+
+  .__pro1 {
+    font-size: 12px;
+  }
+
+  .__pro2 {
+    font-size: 12px;
+  }
+
+  .__pfin {
+    padding: 20px 10px;
+  }
+
+  .__pfpa {
+    padding: 10px 27px;
+  }
+
+  .__prof {
+    padding: 12px 11px;
+  }
+
+  .__setp {
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 20px 9px;
+  }
+
+  .__tabov {
+    margin: 17% 0 0 0px;
+    width: 100%;
+  }
+
+  .__trvto {
+    padding: 10px 13px 3px;
+  }
+
+  .__nav-pills li a {
+    padding: 20px 2px 9px;
+  }
+
+  .__tab {
+    padding: 15px 9px;
+  }
+
+  .__upl {
+    padding: 25px 15px;
+  }
+
+  .__it .btn-new, .__it .btn-next {
+    margin: 5px 0px;
+    font-size: 16px;
+    width: 123px;
+  }
+
+  .__accordion {
+    padding: 18px 20px;
+  }
+
+  .panel {
+    padding: 0 18px;
+  }
+
+  .__profbtn {
+    width: 120px;
+  }
+  .__prof1btn {
+    width: 120px;
+  }
+
+  .__proft {
+    border-right: none;
+  }
+
+  .__prp{
+    text-align: center;
+  }
+
+  .__prp p:nth-child(1) {
+    font-size: 11px;
+  }
+
+  .__prp p:nth-child(2) {
+    font-size: 11px;
+  }
+
+  .__prp p:nth-child(3) {
+    font-size: 14px;
+  }
+  .__prp p:nth-child(4) {
+    font-size: 12px;
+  }
+
+  
+
+  .__bidq {
+    margin-top: -5px;
+    margin-left: -6px;
+  }
+
+  .__bids img {
+    width: 30px;
+    height: 32px;
+    margin-top: -35px;
+  }
+
+  .__bids7 p:nth-child(1) {
+    font-size: 12px;
+  }
+
+  .__bids7 p:nth-child(2) {
+    font-size: 11px;
+  }
+  .__bidsp p {
+    font-size: 11px;
+  }
+
+
+
+}
+
+
+/*=================================================================
+  Dashboard Css end
+==================================================================*/
+
+
+
+
+
+
+
+
+/*=================================================================
+  @media screen 1440px
+==================================================================*/
+
+
+@media screen and (min-width: 1440px){
+   
+  .carousel-indicators {
+    left: 50% !important;
+    bottom: 100px;
+  }
+
+  .__item img {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .__donatecard {
+    padding: 20px;
+  }
+
+
+}
+
+/*=================================================================
+  @media screen 1199px
+==================================================================*/
+
+
+@media screen and (max-width: 1199px){
+   
+  .carousel-indicators {
+    left: 50% !important;
+    bottom: 100px;
+  }
+
+}
+
+
+/*=================================================================
+  @media screen 1220px
+==================================================================*/
+
+
+@media screen and (max-width: 1220px){
+  
+ .carousel-indicators {
+    left: 50% !important;
+    bottom: 100px;
+  }
+
+  .__item img {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .__donatecard {
+    padding: 20px;
+  }
+
+
+}
+
+
+/*=================================================================
+  @media screen 1024px
+==================================================================*/
+
+
+@media screen and (max-width: 1024px){
+
+  .__nav li a {
+    padding-right: 4px;
+    padding-left:4px;
+  }
+  
+  .__foter {
+    padding: 39px 93px;
+  }
+  .__camp img {
+    width: 100%;
+    height: 210px;
+  }
+
+  .carousel-indicators {
+    left: 50% !important;
+    bottom: 100px;
+  }
+
+  .__item img {
+    height: 500px !important;
+    width: 100%;
+  }
+
+  .__inbg {
+    margin-left: 43px;
+  }
+
+  .__card img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .__danateimg img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .__donatecard {
+    padding: 2px;
+  }
+
+  .__donamobtn {
+    width: 100%;
+    letter-spacing: 0.5px;
+  }
+
+  .__donatecard {
+    padding: 20px;
+  }
+  
+
+}
+
+
+/*=================================================================
+  @media screen 992px
+==================================================================*/
+
+
+@media screen and (max-width: 992px){
+  .__donamobtn {
+    width: 100%;
+    letter-spacing: 0.5px;
+  }
+
+  .fancybox img {
+    max-width: 100%;
+    height: 170px;
+  }
+
+  .__donatecard {
+    padding: 20px;
+  }
+
+  
+
+
+}
+
+
+/*=================================================================
+  @media screen 800px
+==================================================================*/
+
+@media screen and (max-width: 800px){
+
+  .__nav li a {
+    padding-right: 4px;
+    padding-left:4px;
+  }
+
+  .__item img {
+    height: 448px !important;
+    width: 100%;  
+  }
+
+  .__card p {
+    padding: 10px;
+  }
+
+  .__inbg {
+    bottom: -6px;
+    width: 100%;
+    padding: 30px 44px;
+   margin-left: -24px;
+  }
+
+  .hero p:nth-child(1) {
+    font-size: 30px;
+    width: 100%;
+    /* margin-top: -160px; */
+  }
+
+  .__camp img {
+    width: 100%;
+    height: 166px;
+  }
+  .__card img {
+    width: 100%;
+  }
+
+  .carousel-indicators {
+    left: 50% !important;
+  }
+
+  .fancybox img {
+    max-width: 100%;
+    height: 130px;
+  }
+
+  .__danateimg img {
+    width: 100%;
+    height: 340px;
+  }
+
+  .__fh {
+    font-size: 15px;
+  }
+
+  .__foter {
+    padding: 39px 20px;
+    margin-top: 3%;
+  }
+
+
+  .__fod {
+    padding: 0 50px;
+  }
+
+  .__donatecard {
+    padding: 20px;
+  }
+
+  .__memeber {
+    font-family: GothamRounded-Bold;
+    font-size: 44px;
+    margin-top: 28%;
+    color: #2EB2FF;
+  }
+
+  
+  /*end*/
+	
+}
+
+/*=================================================================
+  @media screen 767px
+==================================================================*/
+
+@media screen and (max-width: 767px){
+
+  .__navbackground {
+    background: #62c227;
+  }
+
+
+  .__item img {
+    height: 100% !important;
+    width: 100%;
+  }
+  .carousel-indicators {
+    left: 50% !important;
+    bottom: 50px;
+  }
+
+  .view {
+    font-size: 16px;
+  }
+
+ .__card img {
+    width: 100%;
+    height: 249px;
+  }
+  .__card p {
+    font-size: 16px;
+  }
+
+  .__danateimg img {
+    width: 100%;
+  }
+
+  .__foter {
+    text-align: center;
+  }
+
+  .__donatecard {
+    padding: 20px;
+  }
+
+
+  .__memeber {
+    font-family: GothamRounded-Bold;
+    font-size: 41px;
+    margin-top: 11%;
+    color: #2EB2FF;
+}
+
+.__memlogo {
+    width: 50px;
+}
+
+  /*raoatech*/
+}
+
+
+/*=================================================================
+  @media screen 560px
+==================================================================*/
+
+
+  @media screen and (max-width: 560px){
+
+  /*Raoatech*/
+
+.__memeber {
+     margin-top: 4%;
+}
+
+.__navbackground {
+    background: #62c227;
+}
+
+.carousel {
+    padding-top: 47px;
+}
+
+.__searchform button {
+    padding: 11px 10px;
+}
+
+.__modal-dialog {
+    width: 100%;
+}
+
+.__memeber {
+    font-family: GothamRounded-Bold;
+    font-size: 36px;
+    margin-top: 17%;
+}
+
+.__memlogo {
+    width: 40px;
+}
+  /*end*/
+
+
+
+  
+
+
+
+}
+

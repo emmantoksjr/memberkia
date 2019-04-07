@@ -1,0 +1,5 @@
+{
+    "require": {
+        "owen-it/laravel-auditing": "^7.0"
+    }
+}
